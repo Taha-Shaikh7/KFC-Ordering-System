@@ -2,9 +2,6 @@
 
 A **Java Swing-based desktop application** that simulates a KFC food ordering system. The application allows customers to place food orders, select **Dine-In** or **Takeaway**, calculate the total bill automatically, process payments, and generate a detailed receipt.
 
-This project was developed as a semester project to practice **Java GUI development**, **Object-Oriented Programming (OOP)**, and **event-driven programming** using Java Swing.
-
----
 
 ## 📌 Features
 
@@ -12,12 +9,9 @@ This project was developed as a semester project to practice **Java GUI developm
 - ➕ Increase and decrease item quantities
 - 🏪 Choose between **Dine-In** and **Takeaway**
 - 💰 Automatic bill calculation
-- 🧾 Payment processing
 - 📄 Receipt generation
 - 🎲 Random order number generation
 - 👤 Customer name input
-- 🔄 Reset/Clear order
-- ❌ Exit application
 - 🖥️ Easy-to-use graphical user interface
 
 ---
