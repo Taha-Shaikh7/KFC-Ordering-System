@@ -1,27 +1,28 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FOOD-ORDERING-E4002B?style=flat-square&labelColor=111111">
-<img src="https://img.shields.io/badge/POWERED-BY%20JAVA-F5B335?style=flat-square&labelColor=111111">
+<h1>
+  <span style="color:#E4002B;">🍗 KFC</span>
+  <span style="color:#D4AF37;"> ORDERING SYSTEM</span>
+</h1>
 
-<br><br>
+<h3>🔥 THE ART OF SMART ORDERING.</h3>
 
-# 🍗 KFC ORDERING SYSTEM
-
-### THE ART OF SMART ORDERING.
-
-**A Restaurant-Style Desktop Application Built with Java Swing**
-
-<br>
+<p>
+  <b>ORDER</b> <span style="color:#E4002B;">✦</span>
+  <b>CUSTOMIZE</b> <span style="color:#D4AF37;">✦</span>
+  <b>PAY</b> <span style="color:#E4002B;">✦</span>
+  <b>ENJOY</b>
+</p>
 
 <img src="https://img.shields.io/badge/JAVA-SWING-E4002B?style=for-the-badge&logo=openjdk&logoColor=white">
 <img src="https://img.shields.io/badge/NETBEANS-IDE-171717?style=for-the-badge&logo=apachenetbeanside&logoColor=white">
-<img src="https://img.shields.io/badge/OOP-BASED-C9A227?style=for-the-badge">
-<img src="https://img.shields.io/badge/PROJECT-DESKTOP%20APP-333333?style=for-the-badge">
+<img src="https://img.shields.io/badge/OOP-BASED-D4AF37?style=for-the-badge">
+<img src="https://img.shields.io/badge/DESKTOP-APPLICATION-333333?style=for-the-badge">
 
-<br><br>
+<br>
 
-**ORDER WITH EASE. PAY WITH CONFIDENCE. ENJOY EVERY BITE.**
+**A Restaurant-Style Desktop Application Built with Java Swing**
 
 </div>
 
@@ -33,8 +34,6 @@
 
 </div>
 
-Imagine a restaurant ordering experience where everything happens with just a few clicks.
-
 The **KFC Ordering System** is a Java Swing-based desktop application inspired by the KFC food ordering experience. It allows customers to explore a food menu, customize quantities, select their dining preference, calculate bills, complete payments, and receive a professionally generated receipt.
 
 Designed with interactive components and Object-Oriented Programming, this project combines functionality, simplicity, and an engaging user experience.
@@ -45,33 +44,16 @@ Designed with interactive components and Object-Oriented Programming, this proje
 
 ## 🔥 THE EXPERIENCE
 
-<div align="center">
-
-| 🍔 | FOOD SELECTION |
-|:---:|:---|
-| | Choose multiple items from the restaurant menu. |
-
-| ➕ | SMART QUANTITY CONTROL |
-|:---:|:---|
-| | Increase or decrease quantities instantly. |
-
-| 🏪 | FLEXIBLE DINING |
-|:---:|:---|
-| | Choose between Dine-In and Takeaway. |
-
-| 💰 | AUTOMATIC BILLING |
-|:---:|:---|
-| | Calculate the total amount automatically. |
-
-| 💳 | PAYMENT SYSTEM |
-|:---:|:---|
-| | Complete the order through the payment module. |
-
-| 🧾 | INSTANT RECEIPT |
-|:---:|:---|
-| | Generate a detailed receipt with customer and order information. |
-
-</div>
+| Feature | Description |
+|:---|:---|
+| 🍔 Food Selection | Select multiple items from the restaurant menu |
+| ➕ Quantity Control | Increase or decrease item quantities |
+| 🏪 Dining Options | Choose Dine-In or Takeaway |
+| 💰 Smart Billing | Automatically calculate the total bill |
+| 💳 Payment System | Complete orders through the payment module |
+| 🧾 Instant Receipt | Generate detailed customer receipts |
+| 🎲 Order Tracking | Generate random order numbers |
+| 🖥️ GUI Navigation | Navigate between application screens |
 
 ---
 
@@ -93,74 +75,66 @@ Designed with interactive components and Object-Oriented Programming, this proje
 | 🍗 | Hot Wings | PKR 700 |
 | 🍦 | Ice Cream | PKR 250 |
 
-<div align="center">
-
 <sub>All prices represent the sample menu configured in this project.</sub>
 
-</div>
-
 ---
 
-## ✨ HOW THE MAGIC HAPPENS
-
-<div align="center">
+## ✨ HOW THE SYSTEM WORKS
 
 ```text
-       👤 CUSTOMER
-             │
-             ▼
-      📝 ENTER DETAILS
-             │
-             ▼
-       🍔 SELECT FOOD
-             │
-             ▼
-       ➕ SET QUANTITY
-             │
-             ▼
-      🏪 CHOOSE DINING
-        ┌────┴────┐
-        ▼         ▼
-     DINE-IN   TAKEAWAY
-        └────┬────┘
-             ▼
-       💰 TOTAL BILL
-             │
-             ▼
-        💳 PAYMENT
-             │
-             ▼
-       🧾 GENERATE
-          RECEIPT
-             │
-             ▼
-       ❤️ ORDER DONE!
+          👤 CUSTOMER
+               │
+               ▼
+        📝 ENTER DETAILS
+               │
+               ▼
+          🍔 SELECT FOOD
+               │
+               ▼
+          ➕ SET QUANTITY
+               │
+               ▼
+         🏪 CHOOSE DINING
+          /          \
+         ▼            ▼
+      DINE-IN      TAKEAWAY
+          \          /
+               │
+               ▼
+         💰 CALCULATE BILL
+               │
+               ▼
+           💳 PAYMENT
+               │
+               ▼
+         🧾 GENERATE RECEIPT
+               │
+               ▼
+          ❤️ ORDER COMPLETE
 ```
-
-</div>
 
 ---
 
-## 💎 WHAT MAKES IT SPECIAL?
+## 💎 KEY FUNCTIONALITIES
 
 <details>
 <summary><b>🍔 Interactive Food Ordering</b></summary>
 
-Select different menu items and manage their quantities using interactive buttons.
+Select multiple menu items and manage quantities using increment and decrement buttons.
 
 </details>
 
 <details>
-<summary><b>💰 Intelligent Bill Calculation</b></summary>
+<summary><b>💰 Automatic Bill Calculation</b></summary>
 
-Automatically calculate item subtotals and the final order amount based on customer selections.
+Calculate item subtotals and the final amount based on selected products and quantities.
 
 </details>
 
 <details>
 <summary><b>🎲 Unique Order Identification</b></summary>
 
-Generate a random order number to identify each customer order.
+Generate a random order number for every customer order.
 
 </details>
 
@@ -174,29 +148,27 @@ Transfer order details to the payment module and generate a detailed receipt aft
 <details>
 <summary><b>🖥️ Multi-Screen GUI Experience</b></summary>
 
-Navigate between different application screens with a simple and interactive Java Swing interface.
+Navigate between different application screens using an interactive Java Swing interface.
 
 </details>
 
 ---
 
-## 🛠️ BUILT WITH TECHNOLOGY
+## 🛠️ TECHNOLOGY STACK
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=java,netbeans,git,github" />
 
-<br><br>
+</div>
 
-| TECHNOLOGY | ROLE |
+| Technology | Purpose |
 |:---|:---|
-| ☕ Java | Core Programming |
+| ☕ Java | Core Programming Language |
 | 🖥️ Java Swing | Graphical User Interface |
 | 🧩 OOP | Application Architecture |
 | 🎯 Event Handling | Interactive Functionality |
 | 🔧 NetBeans | Development Environment |
-
-</div>
 
 ---
 
@@ -220,55 +192,37 @@ Navigate between different application screens with a simple and interactive Jav
 └── 📄 README.md
 ```
 
-**A modular approach to application development:**
+### Main Components
 
-- `MainForm.java` — Main ordering interface.
-- `Order.java` — Food selection and order management.
-- `Payment.java` — Payment functionality.
-- `Receipt.java` — Receipt generation and display.
-- `Images/` — Application visual resources.
+| Class | Responsibility |
+|:---|:---|
+| MainForm.java | Main ordering interface |
+| Order.java | Food selection and order management |
+| Payment.java | Payment functionality |
+| Receipt.java | Receipt generation and display |
+| Images/ | Application visual resources |
 
 ---
 
 ## 🚀 GET STARTED
 
-Want to experience the application?
-
-**01. Clone the repository**
+**01 — Clone Repository**
 
 ```bash
 git clone https://github.com/your-username/KFC-Ordering-System.git
 ```
 
-**02. Open in NetBeans**
+**02 — Open in NetBeans**
 
 Open the downloaded project using NetBeans IDE.
 
-**03. Build the project**
+**03 — Build Project**
 
 Resolve any missing dependencies and build the application.
 
-**04. Launch the application**
+**04 — Run Application**
 
-Run the main Java class and start ordering!
-
----
-
-## 🧠 BEHIND THE PROJECT
-
-This project helped me practically implement:
-
-- Java Swing Components
-- JFrame, JPanel and JLabel
-- JButton and JTextField
-- Event Handling and ActionListener
-- Classes, Objects and Constructors
-- Object-Oriented Programming
-- GUI Navigation
-- Form-to-Form Data Transfer
-- Random Number Generation
-- Dynamic Bill Calculation
-- Receipt Generation
+Execute the main Java class and start ordering!
 
 ---
 
@@ -292,22 +246,54 @@ Add your actual application screenshots here:
 
 ---
 
+## 🧠 CONCEPTS & SKILLS IMPLEMENTED
+
+- Java Swing Components
+- JFrame, JPanel and JLabel
+- JButton and JTextField
+- Event Handling and ActionListener
+- Classes, Objects and Constructors
+- Object-Oriented Programming
+- GUI Navigation
+- Form-to-Form Data Transfer
+- Random Number Generation
+- Dynamic Bill Calculation
+- Receipt Generation
+- Desktop Application Development
+
+---
+
+## 🎓 LEARNING OUTCOMES
+
+Through this project, I gained practical experience in:
+
+- Building interactive desktop applications.
+- Designing user-friendly graphical interfaces.
+- Implementing event-driven programming.
+- Applying OOP principles in real projects.
+- Managing data between multiple screens.
+- Performing dynamic calculations.
+- Generating structured receipts.
+- Organizing Java projects in NetBeans.
+
+---
+
 ## 👨‍💻 THE DEVELOPER
 
 <div align="center">
 
-# Muhammad Taha
+<h2> Muhammad Taha </h2>
 
 ### BS Artificial Intelligence Student
 
-**Java Developer • AI Enthusiast • Problem Solver**
+**Java Developer | AI Enthusiast | Problem Solver**
 
-Building practical applications, exploring intelligent technologies, and turning ideas into working solutions.
+Passionate about programming, software development, Artificial Intelligence, and creating practical applications.
 
 <br>
 
 <a href="https://github.com/Taha-Shaikh7">
-<img src="https://img.shields.io/badge/EXPLORE%20MY%20GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 </div>
@@ -316,14 +302,12 @@ Building practical applications, exploring intelligent technologies, and turning
 
 <div align="center">
 
-# ❤️ GOOD FOOD. GREAT CODE. SMART EXPERIENCE.
+<h2>🔴 GOOD FOOD. GREAT CODE. SMART EXPERIENCE.</h2>
 
 ### MADE WITH ☕ JAVA & A LOT OF CURIOSITY.
 
-<br>
-
 ⭐ **LIKE THE PROJECT? GIVE IT A STAR!**
 
-<sub>© 2026 Muhammad Taha. Developed as an educational project.</sub>
+<sub>© 2026 Muhammad Taha | Educational Project</sub>
 
 </div>
